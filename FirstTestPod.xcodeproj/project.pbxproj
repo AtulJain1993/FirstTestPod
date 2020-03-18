@@ -10,6 +10,12 @@
 		4DED5E19242207A300A16990 /* FirstTestPod.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DED5E0F242207A200A16990 /* FirstTestPod.framework */; };
 		4DED5E1E242207A300A16990 /* FirstTestPodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DED5E1D242207A300A16990 /* FirstTestPodTests.swift */; };
 		4DED5E20242207A300A16990 /* FirstTestPod.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DED5E12242207A200A16990 /* FirstTestPod.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4DED5E30242207D000A16990 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DED5E2F242207D000A16990 /* AppDelegate.swift */; };
+		4DED5E32242207D000A16990 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DED5E31242207D000A16990 /* ViewController.swift */; };
+		4DED5E35242207D000A16990 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DED5E33242207D000A16990 /* Main.storyboard */; };
+		4DED5E37242207D600A16990 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DED5E36242207D600A16990 /* Assets.xcassets */; };
+		4DED5E3A242207D600A16990 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DED5E38242207D600A16990 /* LaunchScreen.storyboard */; };
+		4DED5E402422091F00A16990 /* FirstTestPod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DED5E3F2422091F00A16990 /* FirstTestPod.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +35,14 @@
 		4DED5E18242207A300A16990 /* FirstTestPodTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FirstTestPodTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DED5E1D242207A300A16990 /* FirstTestPodTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstTestPodTests.swift; sourceTree = "<group>"; };
 		4DED5E1F242207A300A16990 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DED5E2D242207D000A16990 /* FirstTestPodExamples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirstTestPodExamples.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DED5E2F242207D000A16990 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4DED5E31242207D000A16990 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4DED5E34242207D000A16990 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4DED5E36242207D600A16990 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4DED5E39242207D600A16990 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4DED5E3B242207D600A16990 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DED5E3F2422091F00A16990 /* FirstTestPod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstTestPod.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +61,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		4DED5E2A242207D000A16990 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -55,6 +76,7 @@
 			children = (
 				4DED5E11242207A200A16990 /* FirstTestPod */,
 				4DED5E1C242207A300A16990 /* FirstTestPodTests */,
+				4DED5E2E242207D000A16990 /* FirstTestPodExamples */,
 				4DED5E10242207A200A16990 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -64,6 +86,7 @@
 			children = (
 				4DED5E0F242207A200A16990 /* FirstTestPod.framework */,
 				4DED5E18242207A300A16990 /* FirstTestPodTests.xctest */,
+				4DED5E2D242207D000A16990 /* FirstTestPodExamples.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -73,6 +96,7 @@
 			children = (
 				4DED5E12242207A200A16990 /* FirstTestPod.h */,
 				4DED5E13242207A200A16990 /* Info.plist */,
+				4DED5E3F2422091F00A16990 /* FirstTestPod.swift */,
 			);
 			path = FirstTestPod;
 			sourceTree = "<group>";
@@ -84,6 +108,19 @@
 				4DED5E1F242207A300A16990 /* Info.plist */,
 			);
 			path = FirstTestPodTests;
+			sourceTree = "<group>";
+		};
+		4DED5E2E242207D000A16990 /* FirstTestPodExamples */ = {
+			isa = PBXGroup;
+			children = (
+				4DED5E2F242207D000A16990 /* AppDelegate.swift */,
+				4DED5E31242207D000A16990 /* ViewController.swift */,
+				4DED5E33242207D000A16990 /* Main.storyboard */,
+				4DED5E36242207D600A16990 /* Assets.xcassets */,
+				4DED5E38242207D600A16990 /* LaunchScreen.storyboard */,
+				4DED5E3B242207D600A16990 /* Info.plist */,
+			);
+			path = FirstTestPodExamples;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,6 +173,23 @@
 			productReference = 4DED5E18242207A300A16990 /* FirstTestPodTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		4DED5E2C242207D000A16990 /* FirstTestPodExamples */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DED5E3C242207D600A16990 /* Build configuration list for PBXNativeTarget "FirstTestPodExamples" */;
+			buildPhases = (
+				4DED5E29242207D000A16990 /* Sources */,
+				4DED5E2A242207D000A16990 /* Frameworks */,
+				4DED5E2B242207D000A16990 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FirstTestPodExamples;
+			productName = FirstTestPodExamples;
+			productReference = 4DED5E2D242207D000A16990 /* FirstTestPodExamples.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -148,8 +202,12 @@
 				TargetAttributes = {
 					4DED5E0E242207A200A16990 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 					};
 					4DED5E17242207A300A16990 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					4DED5E2C242207D000A16990 = {
 						CreatedOnToolsVersion = 10.1;
 					};
 				};
@@ -160,6 +218,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 4DED5E05242207A200A16990;
 			productRefGroup = 4DED5E10242207A200A16990 /* Products */;
@@ -168,6 +227,7 @@
 			targets = (
 				4DED5E0E242207A200A16990 /* FirstTestPod */,
 				4DED5E17242207A300A16990 /* FirstTestPodTests */,
+				4DED5E2C242207D000A16990 /* FirstTestPodExamples */,
 			);
 		};
 /* End PBXProject section */
@@ -187,6 +247,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		4DED5E2B242207D000A16990 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DED5E3A242207D600A16990 /* LaunchScreen.storyboard in Resources */,
+				4DED5E37242207D600A16990 /* Assets.xcassets in Resources */,
+				4DED5E35242207D000A16990 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -194,6 +264,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DED5E402422091F00A16990 /* FirstTestPod.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,6 +273,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				4DED5E1E242207A300A16990 /* FirstTestPodTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DED5E29242207D000A16990 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DED5E32242207D000A16990 /* ViewController.swift in Sources */,
+				4DED5E30242207D000A16990 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,6 +294,25 @@
 			targetProxy = 4DED5E1A242207A300A16990 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4DED5E33242207D000A16990 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4DED5E34242207D000A16990 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4DED5E38242207D600A16990 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4DED5E39242207D600A16990 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		4DED5E21242207A300A16990 /* Debug */ = {
@@ -341,6 +440,7 @@
 		4DED5E24242207A300A16990 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -358,6 +458,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.apporio.MarketingJudge-Food.FirstTestPod";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -366,6 +467,7 @@
 		4DED5E25242207A300A16990 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -391,6 +493,7 @@
 		4DED5E27242207A300A16990 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Y9MAUZ5247;
 				INFOPLIST_FILE = FirstTestPodTests/Info.plist;
@@ -409,6 +512,7 @@
 		4DED5E28242207A300A16990 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Y9MAUZ5247;
 				INFOPLIST_FILE = FirstTestPodTests/Info.plist;
@@ -418,6 +522,42 @@
 					"@loader_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.apporio.MarketingJudge-Food.FirstTestPodTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4DED5E3D242207D600A16990 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y9MAUZ5247;
+				INFOPLIST_FILE = FirstTestPodExamples/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.apporio.MarketingJudge-Food.FirstTestPodExamples";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4DED5E3E242207D600A16990 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y9MAUZ5247;
+				INFOPLIST_FILE = FirstTestPodExamples/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.apporio.MarketingJudge-Food.FirstTestPodExamples";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -450,6 +590,15 @@
 			buildConfigurations = (
 				4DED5E27242207A300A16990 /* Debug */,
 				4DED5E28242207A300A16990 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DED5E3C242207D600A16990 /* Build configuration list for PBXNativeTarget "FirstTestPodExamples" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DED5E3D242207D600A16990 /* Debug */,
+				4DED5E3E242207D600A16990 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
